@@ -5,17 +5,17 @@ This is a [Nimiq](https://nimiq.com) cryptocurrency miner.  Run it like
     $ docker run -d \
         --name nimiq-miner \
         --mount 'type=volume,source=nimiq-miner,destination=/home/nimiq' \
-        jpsecher/nimiq-miner \
+        pmietlicki/nimiq-miner \
         --pool=eu.nimpool.io:8444 \
-        --wallet-address=NQ6272GHCS6H3XL5L09SFGAM34MK7CU11JFE
+        --wallet-address=NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB
 
 Or start it with `docker-compose up -d`:
 
     version: "3"
     services:
       nimiq-miner:
-        image: jpsecher/nimiq-miner
-        command: --wallet-address=NQ6272GHCS6H3XL5L09SFGAM34MK7CU11JFE
+        image: pmietlicki/nimiq-miner
+        command: --wallet-address=NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB
         volumes:
           - nimiq-miner:/home/nimiq
         restart: on-failure
@@ -44,8 +44,8 @@ To restart the miner:
 ## Build
 
     $ cd src/miner
-    $ docker build -t jpsecher/nimiq-miner .
+    $ docker build -t pmietlicki/nimiq-miner .
 
 ----
 
-[![Docker build status](https://img.shields.io/docker/build/jpsecher/nimiq-miner.svg)](https://hub.docker.com/r/jpsecher/nimiq-miner/builds/)
+[![Docker build status](https://img.shields.io/docker/build/pmietlicki/nimiq-miner.svg)](https://hub.docker.com/r/pmietlicki/nimiq-miner/builds/)
