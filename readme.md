@@ -11,6 +11,11 @@ You can use the ENV variable to change the version.
 
 Your wallet address, this is the address of your wallet available at [wallet.nimiq.com](https://wallet.nimiq.com/).
 
+### POOL
+**Default: eu.nimpool.io:8444**
+
+The default pool for mining. You can choose the one you want at [nimiq.community/mining](https://nimiq.community/mining.html).
+
 ### HOME
 **Default: /home.nimiq**
 
