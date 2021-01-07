@@ -1,5 +1,10 @@
 # Docker container for stand-alone Nimiq miner
 
+##Version
+*Default: 1.5.7-1*
+You can use the ENV variable to change the version. 
+*See available versions on [nimiq repository](https://repo.nimiq.com/deb/pool/stable/main/n/nimiq/)
+
 This is a [Nimiq](https://nimiq.com) cryptocurrency miner.  Run it like
 
     $ docker run -d \
@@ -31,14 +36,21 @@ To see the output from the miner, run one of:
     $ docker logs -t -f nimiq-miner
     $ docker-compose logs
 
+To update the miner:
+
+    $ docker stop nimiq-miner
+    $ docker rm nimiq-miner
+    $ docker pull pmietlicki/nimiq-miner
+    $ docker run -d --mount ...
+
 To stop the miner:
 
-    $ docker stop myminer
+    $ docker stop nimiq-miner
     $ docker-compose stop
 
 To restart the miner:
 
-    $ docker restart myminer
+    $ docker restart nimiq-miner
     $ docker-compose restart
 
 ## Build
