@@ -21,5 +21,4 @@ USER nimiq
 ENV WALLADDR=NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB
 ENV POOL=eu.nimpool.io:8444
 
-ENTRYPOINT ["/usr/share/nimiq/app/node", "/usr/share/nimiq/app/index.js", "--protocol=dumb", "--miner"]
-CMD --pool=${POOL} --type=light --wallet-address=${WALLADDR}
+ENTRYPOINT ["docker-entrypoint.sh"]
