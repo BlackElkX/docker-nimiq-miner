@@ -6,6 +6,8 @@
 
 You can use the ENV variable to change the version. 
 
+*See available versions at [nimiq repository](https://repo.nimiq.com/deb/pool/stable/main/n/nimiq/).*
+
 ### WALLADDR
 **Default: NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB**
 
