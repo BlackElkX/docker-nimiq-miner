@@ -19,7 +19,7 @@ Your wallet address, this is the address of your wallet available at [wallet.nim
 The default pool for mining. You can choose the one you want at [nimiq.community/mining](https://nimiq.community/mining.html).
 
 ### HOME
-**Default: /home.nimiq**
+**Default: /home/nimiq**
 
 The home directory of the user that will launch the nimiq miner. No need to change it.
 
