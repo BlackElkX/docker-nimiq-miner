@@ -21,6 +21,7 @@ USER nimiq
 ENV WALLADDR=NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB
 ENV POOL=eu.nimpool.io:8444
 
-RUN chmod +x docker-entrypoint.sh
-    
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
 ENTRYPOINT ["docker-entrypoint.sh"]
