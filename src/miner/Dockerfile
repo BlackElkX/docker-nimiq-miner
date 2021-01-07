@@ -18,5 +18,7 @@ RUN mkdir -p $HOME && chown nimiq:nimiq $HOME
 WORKDIR $HOME
 USER nimiq
 
+ENV WALLADDR=NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB
+
 ENTRYPOINT ["/usr/share/nimiq/app/node", "/usr/share/nimiq/app/index.js", "--protocol=dumb", "--miner"]
-CMD ["--pool=eu.nimpool.io:8444", "--type=light", "--wallet-address=NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB"]
+CMD ["--pool=eu.nimpool.io:8444", "--type=light", "--wallet-address=${WALLADDR}"]

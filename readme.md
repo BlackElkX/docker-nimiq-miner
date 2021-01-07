@@ -1,9 +1,20 @@
 # Docker container for stand-alone Nimiq miner
 
-## Version
+## ENV variables
+### VERSION
 **Default: 1.5.7-1**
 
 You can use the ENV variable to change the version. 
+
+### WALLADDR
+**Default: NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB**
+
+Your wallet address, this is the address of your wallet available at [wallet.nimiq.com](https://wallet.nimiq.com/).
+
+### HOME
+**Default: /home.nimiq**
+
+The home directory of the user that will launch the nimiq miner. No need to change it.
 
 *See available versions on [nimiq repository](https://repo.nimiq.com/deb/pool/stable/main/n/nimiq/)*
 
