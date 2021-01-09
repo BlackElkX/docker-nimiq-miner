@@ -1,4 +1,4 @@
-# Docker container for stand-alone Nimiq miner
+# Docker container for stand-alone Nimiq (NIM) crypto miner
 
 ## ENV variables
 ### VERSION
