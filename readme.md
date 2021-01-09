@@ -4,7 +4,7 @@
 ### VERSION
 **Default: 1.5.7-1**
 
-You can use the ENV variable to change the version. 
+You can use this variable to change the official miner version. 
 
 *See available versions at [nimiq repository](https://repo.nimiq.com/deb/pool/stable/main/n/nimiq/).*
 
@@ -29,8 +29,6 @@ Configure the consensus type to establish, one of full (default), light, or nano
 **Default: /home/nimiq**
 
 The home directory of the user that will launch the nimiq miner. No need to change it.
-
-*See available versions on [nimiq repository](https://repo.nimiq.com/deb/pool/stable/main/n/nimiq/)*
 
 This is a [Nimiq](https://nimiq.com) cryptocurrency miner.  Run it like
 
