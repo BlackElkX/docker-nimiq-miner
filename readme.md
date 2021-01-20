@@ -24,9 +24,9 @@ Your wallet address, this is the address of your wallet available at [wallet.nim
 The default pool for mining. You can choose the one you want at [nimiq.community/mining](https://nimiq.community/mining.html).
 
 ### TYPE
-**Default: full**
+**Default: light**
 
-Configure the consensus type to establish, one of full (default), light, or nano.
+Configure the consensus type to establish, one of full, light, or nano.
 
 *See [nimiq community]{https://nimiq.community/2018/04/14/setting-up-nodejs_miner.html}*
 
