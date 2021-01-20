@@ -9,9 +9,9 @@ You can use this variable to change the official miner version.
 *See available versions at [nimiq repository](https://repo.nimiq.com/deb/pool/stable/main/n/nimiq/).*
 
 ### PROTO
-**Default: ws**
+**Default: dumb**
 
-Set up the protocol to be used. Available protocols are wss (WebSocket Secure, requires a FQDN, port and SSL), ws: (WebSocket, only requires public IP/FQDN and port) and dumb (discouraged as the number of dumb nodes might be limited).
+Set up the protocol to be used. **The only protocol supported right now is dumb**. Other protocols will be supported soon : wss (WebSocket Secure, requires a FQDN, port and SSL), ws (WebSocket, only requires public IP/FQDN and port).
 
 ### WALLADDR
 **Default: NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB**
