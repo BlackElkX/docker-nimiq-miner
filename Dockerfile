@@ -20,7 +20,7 @@ ENV PROTO=dumb
 ENV HOST=local.localhost
 ENV PORT=80
 ENV WALLADDR=NQ51BJ7CGJA4Y35XNL7KL9VVVYQNA0K76FMB
-ENV POOL=eu.nimpool.io:8444
+ENV POOL=pool.acemining.co:8443
 ENV TYPE=light
 
 ENTRYPOINT ["docker-entrypoint.sh"]
